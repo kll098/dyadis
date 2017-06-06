@@ -1,0 +1,734 @@
+* {
+    font-family: "century gothic";
+}
+
+.hidden {
+	display:none;
+}
+
+.invisible {
+    display: none;
+}
+
+.invisible2, .invisible3 {
+    display: none;
+}
+
+.visible, .visible3 {
+    display:inline;
+}
+
+.visible2 {
+    display:inline;
+}
+
+a:hover {
+    color: #ecb423;
+    text-decoration: none;
+}
+
+#active2 {
+    font-weight: 700;
+    border-bottom: 6px solid #ecb423;
+    padding-bottom: 0.5em;
+    font-size:inherit;
+}
+
+#active{
+    font-weight: 700;
+    border-bottom: 4px solid #ecb423;
+    padding-bottom: 0.8em;
+    font-size:13px;
+}
+
+
+
+.language_selection{
+    margin: 10px;
+    display: none;
+    float: left;
+    
+}
+.clearer {
+    clear: both;
+    margin-bottom: 1em;
+}
+.stroke {
+    width: 100%;
+    height: 10px;
+    background-color: #02102E;
+}
+#partners img {
+    width: 70px;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+#social {
+    margin-top: 3em;
+}
+footer {
+    padding: 2em 6em;
+}
+.uitlijnen {
+    padding: 9em 3em 0 3em;
+}
+/* HOMEPAGE */
+
+#filmpje h1 {
+    font-size: 80px;
+    z-index: 100;
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-shadow: 0 0 5px rgba(44, 11, 42, .2);
+}
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h4 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 1em;
+}
+h5 {
+    font-weight: bold;
+    font-size: 18px;
+    }
+.list-group h5 {
+    padding: 0 1em;
+    font-weight: 100;
+    text-align: center;
+}
+h6 {
+    font-weight: bold;
+    font-size: 55px;
+    color: #ECB324;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.3;
+    padding-left: 1em;
+}
+h7 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ECB324;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+h8 {
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 2em;
+}
+
+h10 {
+        z-index: 5;
+    position: absolute;
+    bottom: 32px;
+    padding: 0 1em;
+    font-size: 51px;
+    color: white;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(44, 11, 42, .2);
+
+}
+
+h2,
+h3,
+h4, h8,
+p {
+    color: #02102E;
+}
+.hoofdtitel {
+    margin-bottom: 1.5em;
+}
+#logo {
+    /* position of Dyadis logo */
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin: 0.9em 1em 0;
+    width: 4%;
+/*    z-index: 11;*/
+}
+ul li {
+    font-size: 19px;
+}
+.navbar-right>li>a {
+    font-size: 13px;
+}
+
+.navbar-right>li>a:hover #active {
+    color:black;
+}
+
+li {
+    list-style-type: none;
+}
+p {
+    font-size: 16px;
+}
+#filmpje img {
+    width: 100%;
+}
+
+#filmpje {
+    overflow: hidden;
+    height: 600px;
+}
+.background {
+    background-color: #f5f5f5;
+}
+.container {
+    padding: 2em 9em;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.blogGroot {
+    height: 600px;
+    padding: 0 2em;
+    padding-right: 18px;
+    ;
+}
+.kader_klein {
+    margin-bottom: 2em;
+    /*    padding: 2em 2em 1em 2em;*/
+    padding: 0em;
+    background-color: white;
+}
+.kader_klein:last-child {
+    margin-bottom: 0;
+}
+.blogKlein {
+    /*    padding: 2em;*/
+    padding-bottom: 2em;
+    float: right;
+}
+.blogKlein:last-child {
+    padding-top: 0;
+}
+#foto_blog2 {
+    background-image: url(../img/blog/jordy/jordy1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+#foto_blog3 {
+    background-image: url(../img/blog/solwaster/solwaster1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+/*
+.foto img {
+    width: 100%;
+}
+*/
+
+.kader img,
+.kader_klein img {
+    width: 100%;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+#tekst_groot {
+    /*    padding:1.3em 0px 1.7em;*/
+    padding: 1.3em 1.7em 1.7em;
+}
+.kader {
+    /*    padding: 2em 2em 0 2em;*/
+    padding: 0em;
+    background-color: white;
+}
+.tekstvak {
+    padding: 1.7em;
+}
+.test {
+    padding-right: 30px;
+}
+.space {
+    margin-top: 0em;
+}
+.steunOns {
+    border: 6px solid;
+    padding: 2em;
+/*    height: 314px;*/
+}
+.overOns {
+    /*    padding: 0 2em 0 0;*/
+    border: 1px solid;
+/*    height: 314px;*/
+}
+.steunOns p,
+.overOns p {
+    text-align: center;
+    padding: 1em;
+}
+.button {
+    text-transform: uppercase;
+    background-color: #ecb423;
+    padding: 0.5em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    max-width: 500px;
+    padding: 10px;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* margin-right: -50%; */
+    /* transform: translate(-50%, -50%); */
+    /* margin: 2em 0; */
+}
+.button2 {
+    text-transform: uppercase;
+    background-color: #ecb423;
+    padding: 0.5em;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    margin-top: 2em;
+    margin-right: 2em;
+    font-size: 17px;
+    margin-bottom: 2em;
+}
+.foto_overOns {
+    width: 100%;
+    padding: 0 0 0 1.5em;
+    /*
+    height: 314px;
+    width: 302px;
+    background-image: url(../img/homepage/dyadishonden.jpg);
+    background-size: 303px;
+    background-repeat: no-repeat;
+    float: right;
+*/
+}
+
+#foto_homepage{
+    max-height: 313px;
+    overflow: hidden;
+    max-width: 254px;
+    float: left;
+    margin-right: 1em;
+}
+
+#foto_homepage img {
+    width: 100%;
+}
+
+.overOns img {
+    display: block;
+    width: 100%;
+}
+#tekst_dyadis {
+    padding: 2em 2em 2em 2em;
+}
+.pup {
+    background-color: white;
+    padding-bottom: 1em;
+}
+.foto_pup {
+    width: 100%;
+    padding: 1.5em 1.5em 0 1.5em;
+    max-height: 329px;
+    overflow: hidden;
+}
+
+.foto_pup img {
+    width:100%;
+}
+
+.naam_pup {
+    text-transform: uppercase;
+    font-size: 50;
+    text-align: center;
+}
+#helden {
+   margin: 0 4em 1em 4em;
+}
+#helden h4 {
+    margin: 0.7em 0 01em 0;
+    text-align: center;
+}
+#helden p {
+    margin: 0 0 30px;
+    text-align: center;
+}
+/* overzicht */
+
+.kolom {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* honden */
+
+.info {
+    text-align: center;
+    font-size: 13px;
+}
+.introtekst {
+    text-align: center;
+    line-height: 1.5;
+    margin:2em 2em 0em 5em;
+}
+/* over ons */
+
+.tijdlijn_icoon {
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    width: 100%;
+    top: 8px;
+    margin-top: 0.3em;
+}
+/* hulphond */
+
+.number {
+    font-size: 60px;
+    float: left;
+    font-weight: 700;
+    border-bottom: 8px solid #ecb423;
+    margin-right: 0.5em;
+    margin-bottom: 0.2em;
+}
+.opsomming {
+    padding: 4em 9em 2em 3em;
+}
+.opsomming h5 {
+    padding-top: 23px;
+}
+.quote {
+    background-color: #02102E;
+    color: white;
+}
+.quote img {
+    width: 100%;
+}
+.azerty{
+    padding: 1em 10em;
+}
+.list-group-item p {
+    font-size: 15px;
+    padding: 0.5em 1em;
+}
+.box1,
+.box2,
+.box3,
+.box4{
+    width: 100%;
+    height: 450px;
+    padding: 5em;
+}
+
+.box_img, .box_img2 {
+   width: 100%;
+max-height:450px; 
+overflow: hidden;
+
+}
+
+/*
+    .box_height {
+        max-height: 450px;
+        overflow: hidden;
+        z-index: -1;
+    }
+*/
+    
+.box2 {
+    z-index: -2;
+}
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p{
+    margin-top: 2em;
+    line-height: 1.5;
+}
+
+.box_img img, .box_img2 img{
+   width: 100%;
+}
+
+.box3 ul li {
+    font-size: 16px;
+}
+
+.box3 li {
+    list-style-type: circle;
+    margin-bottom: 1em; 
+}
+
+.box1 {
+    background-color: rgba(2, 16, 46, 0.05);
+}
+.box2 {
+    background-color: rgba(236, 180, 35, 0.2);
+}
+.box3 {
+    background-color: rgba(236, 180, 35, 0.5);
+}
+.box4 {
+    background-color: rgba(189, 96, 14, 0.11);
+}
+
+.left {
+     margin:1em 1em 2em 10em;
+}
+
+.right {
+    margin:1em 10em 0em 1em;
+}
+
+/* gastgezin */
+.gastgezin_foto {
+    overflow: hidden;
+    float: left;
+    margin-right: 3em;
+    max-height: 320px;
+}
+
+.gastgezin_foto2 {
+  
+}
+
+.gastgezin_foto img, .gastgezin_foto2 img, .vriendenkring_foto img {
+    width: 100%;
+}
+
+.standaardpadding {
+    padding: 2em 0em;
+}
+
+.standaardpadding h3{
+    font-size: 20px;
+}
+
+/* vriendenkring */
+.vriendenkring_foto {
+    overflow: hidden;
+    float: left;
+    margin: 0em 3em 2em 0;
+    max-height: 295px;
+}
+
+/* blog */
+.titel {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.blog .caption {
+    padding: 0 1.5em;
+}
+
+.blogberichten img {
+    width: 100%;
+    margin: 1em 0;
+}
+
+.blogberichten img:first-child {
+    width: 100%;
+    margin: 0 0 1em 0;
+}
+
+#populair {
+    position: fixed;
+}
+
+/* contact */
+
+#map {
+    width: 100%;
+    height: 730px;
+    float: left;
+}
+.fa-5x{
+margin-left:1em;
+    }
+
+.cover {
+    max-height:775px;
+}
+
+.textcover{
+    margin-top: 7em;
+}
+
+.navbar-brand p{
+    color: white;
+}
+
+.tekst, .datum {
+    line-height: 1.7;
+    font-size: 14px;    
+}
+
+video { 
+    position: relative;
+    top: 300px;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+/*    z-index: -100;*/
+    transform: translateX(-50%) translateY(-50%);
+ background-image: url('img/homepage/filmpje.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+em {
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*------------------------------MENU SLIDER ---------------------*/
+.slide--reset {
+-webkit-transform: translateY(0);
+-ms-transform: translateY(0);
+transform: translateY(0);
+}
+
+.slide {
+-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+-o-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
+}	
+
+.header--fixed {
+position: fixed;
+z-index: 10000000;
+right: 0;
+left: 0;
+top: 0;
+}
+
+.headroom {
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+.leftmenu {
+    padding:1.4em 1em 0 7em;   
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+#active:hover, #active2:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.menuwidth {
+    width: 204px;
+}
+
+.pijltje {
+    text-decoration: none;
+    color:rgba(204, 204, 204, 0.5);
+}
+
+.pijltje:hover {
+    text-decoration: none;
+    color:rgba(204, 204, 204, 0.9);
+}
+
+.navbar-brand p {
+    font-size: 0px;
+}
+
+.safari-mac video { top:0;left:0; }
+
+.getuigenis_klein {
+/*    margin: 0;*/
+}
+

@@ -1,0 +1,411 @@
+/*
+@media screen and (max-width: 699px) and (min-width: 520px) {
+}
+*/
+
+
+/*
+@media screen and (max-width: 1345px) {
+    .box1, .box2, .box3, .box4 {
+    width: 100%;
+    height: auto;
+    padding: 3em;
+}
+}
+*/
+
+@media screen and (max-width: 1170px) {
+    .container {
+        padding: 2em;
+    }
+    
+    h10 {
+        padding: 0 0.5em;
+        font-size: 41px;
+    }
+    .test {
+        padding: 0;
+    }
+    .overOns {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .steunOns {
+        margin-bottom: 2em;
+    }
+    
+    #tekst_dyadis {
+        padding: 2em;
+    }
+    
+    .blogKlein:last-child {
+    padding-top: 2em;
+            padding-right: 1em;
+
+}
+    
+    .blogKlein {
+    padding-top: 2em;
+        padding-left: 1em;
+}
+    
+    .foto_overOns {
+     float: left;   
+    }
+    
+/*
+    .pup{
+        height: auto;
+        margin-bottom: 2em;
+    }
+*/
+    
+    #helden h4 {
+    margin: 0em 0 1em 0;
+    text-align: center;
+}
+    
+    #helden p {
+    text-align: center;    
+    }
+    
+/*
+    #helden {
+        height: 200px;
+    }
+*/
+    .space{
+    margin-top: 1.5em;
+}
+     .tijdlijn_icoon {
+        margin-top:0em;
+    }
+    
+    footer {
+        padding: 0;
+    }
+    
+    .uitlijnen {
+        padding: 0;
+    }
+
+    h6 {
+        font-size: 38px;
+    }
+    
+    #map {
+        height: 500px;
+    }
+    
+    .azerty {
+        padding: 0;
+    }
+    .left, .right {
+        margin: 0 0 1em 0;
+    }
+    .visible{
+        display: none;
+    }
+    
+    .invisible3 {
+        display: inline;
+    }
+    .visible3 {
+        display: block;
+    }
+     ul li {
+        font-size: 15px;
+    }
+    
+    #logo {
+        width: 5%;
+    }
+    
+    .leftmenu {
+        padding: 1em 0 0 5em;
+    }
+    
+    .navbar-right {
+        height: 33px;
+        padding: 0px;
+    }
+    
+    .navbar-nav>li>a  {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+     .foto_pup {
+    max-height: 350px;
+    }
+    .textcover {
+        margin-top: 12em;
+    }
+    h6 {
+        font-size: 31px;
+    }
+    
+    p, .button2 {
+        font-size: 14px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    .box1, .box2, .box3, .box4, .box_img {
+     max-height: 340px;   
+    }
+    
+    .box1, .box2, .box3, .box4 {
+    padding: 3em;
+    }
+    
+    .fa-5x {
+    margin-left: 0;
+    }
+    
+    .introtekst{
+     margin: 2em 2em 0em 2em;
+    }
+    
+/*
+    .gastgezin_foto img, .vriendenkring_foto img {
+    width: 230px;
+}
+*/
+    .gastgezin_foto {
+        margin-right: 1em;
+    }
+    
+     .getuigenis_klein {
+        margin: 0 1em 0 0;
+    }
+    .gastgezin_foto2 {
+        float: none;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    }
+    
+
+    
+
+}
+
+
+
+
+
+@media (max-width:768px) {
+    #filmpje{
+        height: 300px;
+    }
+    
+.blogKlein {
+    padding: 2em 0 0 0em;
+}
+    .blogKlein:last-child {
+    padding-right: 0em;
+}
+    
+    
+/*
+    .number {
+        margin-bottom: 1em;
+    }
+*/
+/*
+    .steunOns {
+        padding: 1em;
+    }
+*/
+    .space{
+    margin-top: 1.5em;
+}
+    .tijdlijn_icoon {
+        margin-top:0em;
+    }
+    
+    footer {
+        padding: 0;
+    }
+      .uitlijnen {
+        padding: 0;
+    }
+      h6 {
+        font-size: 38px;
+        padding: 0;
+    }
+    
+    .language_selection {
+        display: block;
+    }
+    
+    .invisible, .invisible2 {
+        display: inline;
+    }
+        
+    #foto_homepage {
+        display: none;
+    }
+    
+/*
+    .overOns{
+        height: 280px;
+    }
+    
+*/
+    .visible {
+        display: none;
+    }
+    
+    .kaart {
+        display: none;
+    }
+    
+    .introtekst {
+            margin: 2em 2em 0em 2em;
+    }
+    
+    .textcover {
+        margin-top: 7em;
+    }
+    
+    .fa-5x{
+margin-left:0em;
+    }
+    
+    .box1, .box2, .box3, .box4 {
+    width: 100%;
+/*    height: 220px;*/
+    height: auto;
+    padding: 2em;
+}
+    .box1 p, .box2 p, .box3 p, .box4 p {
+    margin-top: 1em;
+    }
+    
+    h8 {
+        font-size: 17px;
+    }
+    
+    .box_img{
+        height: 191px;
+    }
+    
+/*
+    .cover {
+        display: none;
+    }
+*/
+    
+    #logo {
+        display: none;
+    }
+    
+    #filmpje h1 {
+        display: none;
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    h4 {
+        font-size: 25px;
+    }
+    .opsomming {
+    padding: 1em 0em 0em 1em;
+}
+    
+    p {
+        font-size: 14px;
+    }
+    
+    ul li {
+        font-size: 16px;
+    }
+    .visible2 {
+        display: none;
+    }
+    
+    .navbar-inverse{
+        height: auto;
+    }
+    
+    .leftmenu {
+        padding:0;
+    }
+   
+    .navbar-brand p {
+    font-size: 18px;
+}
+    .foto_pup {
+    max-height: 270px;
+    }
+    
+    #helden {
+        margin: 1em;
+    }
+    
+    #helden h4, #helden p {
+    text-align: left;
+    }
+    
+    #helden h4 {
+        font-size: 31px;
+    }
+    
+    h3 {
+        font-size: 19px;
+    }
+    
+    h10 {
+        font-size: 38px;
+    }
+    
+    .invisible3, .visible3 {
+        display: none;
+    }
+    
+
+    .box_img img {
+    top: -128px;
+    position: relative;
+    }
+    
+    .quote {
+        height: 267px;
+        overflow: hidden;
+        display: table-cell;
+    vertical-align: middle
+    }
+    .quote img {
+        display: none;
+    }
+    blockquote {
+    padding: 33px 32px;
+    text-align: center;
+    margin: 0 0 11px;
+    font-size: 17px;
+}
+    .gastgezin_foto2 {
+        display: block;
+        float: left;
+        max-width: 146px;
+        height: auto;
+        max-height: 111px;
+        margin: 0 2em 0 0;
+        overflow: hidden;
+    }
+    .getuigenis_klein {
+        margin: 0 0 2em 0;
+    }
+      .standaardpadding {
+          padding: 1em 0.9em;
+      }  
+}
