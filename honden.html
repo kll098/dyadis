@@ -670,7 +670,7 @@ met een ziekte of een handicap." />
   columnWidth: 0
 });*/
       
-      
+      $(window).load(function(){ 
       var $grid = $('.grid').imagesLoaded( function() {
   // init Isotope after all images have loaded
   $grid.isotope({
@@ -678,6 +678,7 @@ met een ziekte of een handicap." />
                     layoutMode:'masonry'
   });
 });
+                                });
       
       
 //      var $grid = $('.grid').isotope({
