@@ -48,6 +48,18 @@ met een ziekte of een handicap." />
         ga('send', 'pageview');
     </script>
 
+    <script>
+    var $grid = $('.gallery').isotope({
+                      // main isotope options
+                    percentPosition: true,
+                    fitWidth:true,
+                      itemSelector: '.gallery_item',
+                      // set layoutMode
+                      //layoutMode: 'masonry'
+                    layoutMode:'fitRows'
+                    });
+    
+    </script>
     <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
     <script src="js/html5shiv.js"></script>
@@ -141,7 +153,7 @@ met een ziekte of een handicap." />
     </header>
 
 
-    <div class="container background" style="padding-top:10em">
+    <div class="container background gallery" style="padding-top:10em">
         <div id="users">
             <ul class="list" style="padding:0;">
                 <div class="grid">
