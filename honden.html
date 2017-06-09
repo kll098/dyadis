@@ -47,14 +47,6 @@ met een ziekte of een handicap." />
         ga('create', 'UA-100092904-1', 'auto');
         ga('send', 'pageview');
     </script>
-    
-    <script>
-    $('.kolom').masonry({
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: 0
-});
-    </script>
 
     <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
@@ -669,7 +661,13 @@ met een ziekte of een handicap." />
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 -->
-
+  <script>
+    $('.kolom').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 0
+});
+    </script>
     <script>
         // grab an element
         var myElement = document.querySelector("header");
