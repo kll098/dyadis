@@ -591,6 +591,11 @@ overflow: hidden;
 }
 
 /* blog */
+
+.blogdiv {
+    padding-top:10em;
+}
+
 .titel {
     text-align: left;
     line-height: 1.5;
