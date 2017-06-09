@@ -671,25 +671,13 @@ met een ziekte of een handicap." />
 });*/
       
       $(window).load(function(){ 
-      var $grid = $('.grid').imagesLoaded( function() {
-  // init Isotope after all images have loaded
-  $grid.isotope({
-      itemSelector: '.grid-item',
+      var $grid = $('.grid').isotope({
+                      // main isotope options
+                      itemSelector: '.grid-item',
                     layoutMode:'masonry'
-  });
-});
-                                });
-      
-      
-//      var $grid = $('.grid').isotope({
-//                      // main isotope options
-//                      itemSelector: '.grid-item',
-//                    layoutMode:'masonry'
-//                    });
-//      
-//$grid.imagesLoaded().progress( function() {
-//  $grid.isotope('layout');
-});
+                    });
+      });
+    
       
     </script>
     <script>
