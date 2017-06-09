@@ -345,6 +345,16 @@ met een ziekte of een handicap." />
 	
 
 <script>
+  $(window).load(function(){ 
+      var $grid = $('.grid').isotope({
+                      // main isotope options
+                      itemSelector: '.grid-item',
+                    layoutMode:'masonry'
+                    });
+      });
+</script>
+
+<script>
 		// grab an element
 var myElement = document.querySelector("header");
 // construct an instance of Headroom, passing the element
