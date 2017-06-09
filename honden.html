@@ -668,11 +668,31 @@ met een ziekte of een handicap." />
   itemSelector: '.grid-item',
   columnWidth: 0
 });*/
-      var $grid = $('.kolom').isotope({
-                      // main isotope options
-                      itemSelector: '.grid-item',
-                    layoutMode:'masonry'
-                    });
+//      var $grid = $('.kolom').isotope({
+//                      // main isotope options
+//                      itemSelector: '.grid-item',
+//                    layoutMode:'masonry'
+//                    });
+      
+      var boxReveal = {
+  delay    : 200,
+  distance : '50px',
+  reset: true,
+
+};
+
+var userList = new List('users', options);
+
+
+window.sr = ScrollReveal();
+sr.reveal('.thumbnail', boxReveal);
+
+$('.kolom').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 0
+});
+      
     </script>
     <script>
         // grab an element
