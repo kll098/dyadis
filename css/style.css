@@ -335,6 +335,13 @@ p {
     text-align: center;
     padding: 1em;
 }
+
+.facebook {
+width: 100%;
+    border:none;
+    overflow:hidden
+}
+
 .button {
     text-transform: uppercase;
     background-color: #ecb423;
