@@ -27,10 +27,6 @@
         font-size: 39px;
     }
     
-      h5 {
-        font-size: 23px;
-    }
-    
     h10 {
         padding: 0 0.5em;
         font-size: 41px;
@@ -423,9 +419,5 @@ margin-left:0em;
     
     .blogdiv {
         padding-top:6em;
-    }
-    
-     p, .button2 {
-        font-size: 18px;
     }
 }
