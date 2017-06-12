@@ -475,13 +475,13 @@ width: 100%;
     font-weight: 700;
     border-bottom: 8px solid #ecb423;
     margin-right: 0.5em;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.5em;
 }
 .opsomming {
     padding: 4em 9em 2em 3em;
 }
 .opsomming h5 {
-    padding-top: 23px;
+    padding-top: 12px;
 }
 .quote {
     background-color: #02102E;
