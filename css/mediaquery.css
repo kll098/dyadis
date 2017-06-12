@@ -341,7 +341,7 @@ margin-left:0em;
     }
    
     .navbar-brand p {
-    font-size: 18px;
+    font-size: 20px;
 }
     .foto_pup {
     max-height: 270px;
@@ -393,14 +393,15 @@ margin-left:0em;
     font-size: 17px;
 }
     .gastgezin_foto2 {
-        display: block;
-        float: left;
-        max-width: 146px;
-        height: auto;
-        max-height: 111px;
-        margin: 0 2em 0 0;
-        overflow: hidden;
+    display: block;
+    float: left;
+    max-width: 319px;
+    max-height: 241px;
+    margin: 0 2em 0 0;
+    overflow: hidden;
+    padding: 0 0 1em 0em;
     }
+    
     .getuigenis_klein {
         margin: 0 0 2em 0;
     }

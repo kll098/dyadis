@@ -110,7 +110,7 @@ h5 {
     }
 .list-group h5 {
     padding: 0 1em;
-    font-weight: 100;
+/*    font-weight: 100;*/
     text-align: center;
 }
 h6 {
