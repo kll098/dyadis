@@ -751,6 +751,11 @@ top: 0;
   padding-bottom: 99999px;
 }
 
+.equal .ja2{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
 .equal{
   overflow: hidden; 
 }

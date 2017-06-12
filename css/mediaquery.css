@@ -1,8 +1,3 @@
-/*
-@media screen and (max-width: 699px) and (min-width: 520px) {
-}
-*/
-
 
 
 @media screen and (max-width: 1280px) {
@@ -42,13 +37,15 @@
     }
     
     .blogKlein:last-child {
+/*
     padding-top: 2em;
             padding-right: 1em;
+*/
 
 }
     
     .blogKlein {
-    padding-top: 2em;
+/*    padding-top: 2em;*/
         padding-left: 1em;
 }
     
