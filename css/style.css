@@ -483,11 +483,11 @@ width: 100%;
 .opsomming h5 {
     padding-top: 12px;
 }
-.quote, .quote2 {
+.quote {
     background-color: #02102E;
     color: white;
 }
-.quote img, .quote2 img {
+.quote img {
     width: 100%;
 }
 .azerty{

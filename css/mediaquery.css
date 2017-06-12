@@ -384,14 +384,7 @@ margin-left:0em;
     vertical-align: middle;
     }
     
-    .quote2 {
-        height: 186px;
-        overflow: hidden;
-        display: table-cell;
-    vertical-align: middle;
-    }
-    
-    .quote img, .quote2 img {
+    .quote img {
         display: none;
     }
     
@@ -402,12 +395,7 @@ margin-left:0em;
     font-size: 17px;
 }
     
-    #blockquote2 {
-    padding: 14px 13px;
-    text-align: center;
-    /* margin: 0 0 11px; */
-    font-size: 17px;
-}
+
     
     .gastgezin_foto2 {
     display: block;
