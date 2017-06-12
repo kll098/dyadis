@@ -4,15 +4,13 @@
 */
 
 
-/*
-@media screen and (max-width: 1345px) {
-    .box1, .box2, .box3, .box4 {
-    width: 100%;
-    height: auto;
-    padding: 3em;
+
+@media screen and (max-width: 1280px) {
+ .container {
+        padding: 2em;
+    }
 }
-}
-*/
+
 
 @media screen and (max-width: 1170px) {
     .container {
@@ -66,7 +64,7 @@
 */
     
     #helden h4 {
-    margin: 0em 0 1em 0;
+/*    margin: 0em 0 1em 0;*/
     text-align: center;
 }
     
