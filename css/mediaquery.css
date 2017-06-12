@@ -198,7 +198,7 @@
 
 
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
     #filmpje{
         height: 300px;
     }
@@ -412,3 +412,10 @@ margin-left:0em;
         padding-top:6em;
     }
 }
+
+@media screen and ( max-height: 600px ){
+}
+
+@media screen and ( min-device-height: 600px ){
+}
+
